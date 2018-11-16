@@ -1,0 +1,51 @@
+table#t1{
+	border-top: 1px black solid;
+	width: 100%;
+	height: 100%;
+}
+tr{
+	width: 100%;
+}
+td{
+	background-color: black;
+	width: 100%;
+}
+td#cab{
+	text-align: center;
+}
+td#cos{
+	background-color: white;
+}
+h2{
+	color: white;
+}
+div#d1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+div#d2{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+div#d3{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+div#d4{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+}
+p#p1{
+	color: white;
+}
+p#p2{
+	color: white;
+}
+img{
+	width: 75px;
+	height: 75px;
+}

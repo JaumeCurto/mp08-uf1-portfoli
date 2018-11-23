@@ -1,5 +1,8 @@
+body{
+	margin: 0px;
+	height: 1000px;
+}
 table#t1{
-	border-top: 1px black solid;
 	width: 100%;
 	height: 100%;
 }
@@ -12,40 +15,116 @@ td{
 }
 td#cab{
 	text-align: center;
+	height: 10%;
 }
 td#cos{
 	background-color: white;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+td#fot{
+	height: 10%;
+}
+h1{
+	color: white;
 }
 h2{
 	color: white;
 }
+div#d0{
+	width: 100%;
+	height: 110%;
+}
 div#d1{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background-color: red;
+	float: left;
+	margin-top: 10%;
+	margin-left: 23%;
 }
 div#d2{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background-color: green;
+	float: right;
+	margin-top: 10%;
+	margin-right: 23%;
 }
 div#d3{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background-color: blue;
+	float: left;
+	margin-top: 10%;
+	margin-left: 23%;
 }
 div#d4{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background-color: orange;
+	float: right;
+	margin-top: 10%;
+	margin-right: 23%;
 }
-p#p1{
-	color: white;
+h2#p1{
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
 }
-p#p2{
-	color: white;
+h2#p2{
+	float: left;
+	margin-top: 3%;
+	margin-left: 20%;
+	color: blue;
+}
+h2#p3{
+	float: right;
+	margin-top: 3%;
+	margin-right: 3%;
 }
 img{
 	width: 75px;
 	height: 75px;
+}
+@media only screen and (max-width: 600px) {
+   	 body{
+		margin: 0px;
+		height: 1000px;
+	}
+    div#d1{
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	float: left;
+	margin-top: 15%;
+	margin-left: 0%;
+}
+div#d2{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	float: left;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+div#d3{
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	float: left;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	
+
+}
+div#d4{
+	width: 100%;
+	height: 100px;
+	background-color: orange;
+	float: left;
+	margin-top: 0%;
+}
 }
